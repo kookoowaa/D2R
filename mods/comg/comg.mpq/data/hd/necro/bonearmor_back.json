@@ -1,0 +1,37 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "bonearmor_back",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 195140871,
+            "components": []
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 84947804,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/overlays/monster/monfrenzy/vfx_monfrenzy.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}
